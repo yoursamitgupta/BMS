@@ -1,0 +1,302 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#@Login"
+          },
+          {
+            "line": 5,
+            "value": "#Scenario: User Navigated to BookMyShow application"
+          },
+          {
+            "line": 6,
+            "value": "#Given user open the browser"
+          },
+          {
+            "line": 7,
+            "value": "#When User navigate to the application  \"https://in.bookmyshow.com/bengaluru\" url"
+          },
+          {
+            "line": 8,
+            "value": "#Then validate the user in \"HomePage\" of Bookmyshow"
+          },
+          {
+            "line": 9,
+            "value": "#"
+          },
+          {
+            "line": 10,
+            "value": "#@Function"
+          },
+          {
+            "line": 11,
+            "value": "#Scenario: User Click on Movie Tab and Seleted the movie and booking the ticket"
+          },
+          {
+            "line": 12,
+            "value": "#Given User click on the \"Movie\" tab and redirect to \"MoviePage\""
+          },
+          {
+            "line": 13,
+            "value": "#When User Select the movie and click on the BookNowButton"
+          },
+          {
+            "line": 14,
+            "value": "#And User selects the date and time in respective cinemahall"
+          },
+          {
+            "line": 15,
+            "value": "#And User selects the 1 seat and proceed"
+          },
+          {
+            "line": 16,
+            "value": "#Then selecting seat in seatt matrix and validating the both side seat is empty of Occupied"
+          }
+        ],
+        "line": 18,
+        "name": "User testing",
+        "description": "",
+        "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied;user-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155028259,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "go ione place",
+            "match": {
+              "location": "booking.go_ione_place()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2151426,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "he went",
+            "match": {
+              "location": "booking.he_went()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5220411,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verified",
+            "match": {
+              "location": "booking.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User testing",
+        "description": "",
+        "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied;user-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 335696,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "go ione place",
+            "match": {
+              "location": "booking.go_ione_place()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170228,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "he went",
+            "match": {
+              "location": "booking.he_went()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126977,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verified",
+            "match": {
+              "location": "booking.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "User testing",
+        "description": "",
+        "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied;user-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 299294,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "go ione place",
+            "match": {
+              "location": "booking.go_ione_place()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135779,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "he went",
+            "match": {
+              "location": "booking.he_went()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166745,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verified",
+            "match": {
+              "location": "booking.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "User testing",
+        "description": "",
+        "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied;user-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177734,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "go ione place",
+            "match": {
+              "location": "booking.go_ione_place()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158327,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "he went",
+            "match": {
+              "location": "booking.he_went()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122569,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "verified",
+            "match": {
+              "location": "booking.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "User testing",
+        "description": "",
+        "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied;user-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152564,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "go ione place",
+            "match": {
+              "location": "booking.go_ione_place()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71198,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "he went",
+            "match": {
+              "location": "booking.he_went()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298770,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "verified",
+            "match": {
+              "location": "booking.verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking the movie ticket and checking the next seat is empty or occupied",
+    "description": "",
+    "id": "booking-the-movie-ticket-and-checking-the-next-seat-is-empty-or-occupied",
+    "keyword": "Feature",
+    "uri": "booking.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@lo"
+      }
+    ]
+  }
+]

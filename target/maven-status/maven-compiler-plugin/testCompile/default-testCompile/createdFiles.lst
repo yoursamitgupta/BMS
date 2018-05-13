@@ -1,0 +1,5 @@
+com/BMS/TestUtils.class
+com/BMS/pageobjects/BookingPage.class
+com/BMS/stepdefinitions/Hooks.class
+com/BMS/ProjectConfiguration.class
+com/BMS/stepdefinitions/booking.class
